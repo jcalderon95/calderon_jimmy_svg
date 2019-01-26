@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="piano" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 232.8 212.9" style="enable-background:new 0 0 232.8 212.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#660D3B;}
+	.st1{fill:#C2AB83;}
+</style>
+<path id="red" class="st0" d="M0,200.1V37C0,16.6,16.6,0,37,0l53.9,0c17.5,0,25.5,12.9,31.7,31.7l1,2.7c0,0,12,41.7,37.3,42.2
+	c10.7,0.2,25.2,0.3,38.4,0.2c18.5-0.1,33.6,15,33.6,33.5V200c0,7.1-5.8,12.9-12.9,12.9H12.8C5.7,212.9,0,207.1,0,200.1z"/>
+<path id="beige" class="st1" d="M6.4,155.9h29v33.4h13.3v-33.4h6.2v33.4h12.4v-33.4h25.7v33.4h12.7v-33.4h6.6v33.4H125v-33.4h6.2
+	v33.4h13.3v-33.4h25.9v33.4h12.7v-33.4h6.8v33.4h11.6v-33.4h25.1v43.8c0,2.5-2,4.5-4.5,4.5H10c-2,0-3.6-1.6-3.6-3.6V155.9z"/>
+</svg>
