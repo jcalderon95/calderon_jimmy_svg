@@ -1,3 +1,3 @@
 # Authoring 2 SVG and JavaScript
 
-####Music SVG icon set
+#### Music SVG icon set
