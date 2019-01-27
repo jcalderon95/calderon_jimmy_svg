@@ -8,28 +8,30 @@
 
 body
 {
-	background: rgb(201,201,201) no-repeat; 
-	background: -moz-linear-gradient(top, rgba(201,201,201,1) 0%, rgba(255,255,255,1) 65%, rgba(255,255,255,1) 100%) no-repeat; 
-	background: -webkit-linear-gradient(top, rgba(201,201,201,1) 0%,rgba(255,255,255,1) 65%,rgba(255,255,255,1) 100%) no-repeat; 
-	background: linear-gradient(to bottom, rgba(201,201,201,1) 0%,rgba(255,255,255,1) 65%,rgba(255,255,255,1) 100%) no-repeat; 
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9c9c9', endColorstr='#ffffff',GradientType=0 ) no-repeat; /
+background: #ECE9E6;  
+background: -webkit-linear-gradient(to top, #FFFFFF, #ECE9E6) no-repeat;  
+background: linear-gradient(to top, #FFFFFF, #ECE9E6) no-repeat; 
 
+/* background-color: #ededed;*/
 }
 
+.frame
+{
 
+	border: solid 11px #ECE9E6;
+
+}
 
 .container
 {
 	margin: 0 auto;
 	width: 1000px;
 
-/*	background-color: red;*/
 }
 
 .mainHeader
 {
-	width: 1000px;
-	/*background-color: green;*/
+
 	display: flex;
 	flex-direction: column;
 }
@@ -39,8 +41,10 @@ h1
 {
 	margin: 0 auto;
 	font-family: 'Poppins', sans-serif;
-	font-size: 40px;
+	font-size: 45px;
 	margin-top: 40px;
+	color: #595959;
+	font-weight: normal;
 }
 
 h2
@@ -49,6 +53,7 @@ h2
 	font-size: 15px;
 	margin-left: 250px;
 	margin-top: 50px;
+	color: #595959;
 }
 
 h2 span
@@ -65,7 +70,6 @@ h2 span
 
 .icons
 {
-	width: 800px;
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
@@ -81,7 +85,7 @@ h2 span
 
 .iconCon1, .iconCon2
 {
-	width: 800px;
+
 	height: 200px;
 	display: flex;
 	flex-direction: row;
@@ -91,14 +95,16 @@ h2 span
 
 .svgCon
 {
-	width: 100px;
-	height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
+
 
 svg
 {
-	width: 120px;
-	height: 120px;
+	width: 100px;
+	height: 100px;
 }
 
 
