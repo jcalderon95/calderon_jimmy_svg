@@ -6,6 +6,106 @@
 	display: none;
 }
 
+body
+{
+background: #ECE9E6;  
+background: -webkit-linear-gradient(to top, #FFFFFF, #ECE9E6) no-repeat;  
+background: linear-gradient(to top, #FFFFFF, #ECE9E6) no-repeat; 
+
+/* background-color: #ededed;*/
+}
+
+.frame
+{
+
+	border: solid 11px #ECE9E6;
+
+}
+
+.container
+{
+	margin: 0 auto;
+	width: 1000px;
+
+}
+
+.mainHeader
+{
+
+	display: flex;
+	flex-direction: column;
+}
+
+
+h1
+{
+	margin: 0 auto;
+	font-family: 'Poppins', sans-serif;
+	font-size: 45px;
+	margin-top: 40px;
+	color: #595959;
+	font-weight: normal;
+}
+
+h2
+{
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	margin-left: 250px;
+	margin-top: 50px;
+	color: #595959;
+}
+
+h2 span
+{
+	font-family: 'Major Mono Display', monospace;
+	font-size: 30px;
+	border-top: solid 4px;
+	border-bottom: solid 4px;
+	margin-left: 50px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+
+}
+
+.icons
+{
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.iconCon1
+{
+	margin-top: 100px;
+
+}
+
+
+.iconCon1, .iconCon2
+{
+
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+
+}
+
+.svgCon
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+svg
+{
+	width: 100px;
+	height: 100px;
+}
 
 
 
